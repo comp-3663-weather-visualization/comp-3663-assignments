@@ -31,9 +31,9 @@ The staging site for the backend is Heroku.com and for the frontend it is Netlif
 The production server will be a custom build on a DigitalOcean.com VPS.
 
 ## Deliverables
-Feb 19: Requirements document
-Feb 26: Unit tests
-Mar 05: System specification document
-Mar 12: Architecture documents
-Mar 19: UI design documents
-Apr 04: Final deployment and code delivery
+- Feb 19: Requirements document
+- Feb 26: Unit tests
+- Mar 05: System specification document
+- Mar 12: Architecture documents
+- Mar 19: UI design documents
+- Apr 04: Final deployment and code delivery
