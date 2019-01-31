@@ -18,5 +18,14 @@ The program may ...
 ## System limitations
 
 ## Development Environment
+The backend is written in Python using the Django framework and a PostgreSQL database.
+
+The frontend is written in HTML/CSS/JavaScript. The CSS framework, Bulma, is being leveraged along with the Nuxt.js, a JavaScript framework built on top of Vue.js.
+
+Revision control for both code bases is handled with git and backed up to GitHub.com. Development of features and bug-fixes is completed in separate repository branches, then merged to master after a code review. The code in master is automatically deployed to a staging site for review and user testing. When development is complete and the staging site has passed user testing, it will be pushed to the production site.
+
+The staging site for the backend is Heroku.com and for the frontend it is Netlify.com.
+
+The production server will be a custom build on a DigitalOcean.com VPS.
 
 ## Deliverables
