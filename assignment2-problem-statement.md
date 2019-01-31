@@ -9,11 +9,11 @@ We are looking to provide a detailed, visualization-focused analysis of historic
 ## Use scenario for each member of group
 
 ## Functional and non-functional requirements
-# Functional Requirements:
+### Functional Requirements:
 The program must provide varied weather graphs.
 The program must be hosted and accessable on a server via the web.
 
-# Non-functional requirements:
+### Non-functional requirements:
 The program may ...
 ## System limitations
 
