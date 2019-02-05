@@ -4,20 +4,23 @@
 The world needs more weather visualizations. We'll provide historical and real-time visualizations of weather. We'll use Canadian data to start but the solution will be location agnostic.
 
 ## Define problem
-(What needs to be improved in the world?)
 We are looking to provide a detailed, visualization-focused analysis of historical and real-time weather. The world, specifically people who enjoy looking at graphs and data visualizations, could benefit from our amazing and varied weather visualizing techniques. From casual visualization-viewers, to full-time graph-enthusiasts -- anyone may benefit from our weather visualizations.
 
 ## Use scenario for each member of group
+Each member of the group will be responsible for developing supporting documenation and reports as well as code. Depending on experience and interest, group members may be contribute more to the frontend code or backend.
 
 ## Functional and non-functional requirements
 ### Functional Requirements:
-The program must provide varied weather graphs.  
-The program must be hosted and accessable on a server via the web.  
-
+The application must provide varied weather graphs.  
+The application must be hosted on and accessible via the web. 
+The application must be viewable on a variety of devices (mobile, tablet, desktop, TV, etc).
 
 ### Non-functional requirements:
-The program may...  
+Three months of part time developer time is not sufficient to produce a fully functioning weather application to compete in the existing market space.
+Hypothetically, if the application was fully implemented and could compete in the market, the resources used to host it are not configured to scale to meet demand. And the group is not in a position to pay for the underlying compute power to support a scaling solution.
+
 ## System limitations
+The system will only provide Canadian weather data to start. It is out of the scope of this project to provide international weather data.
 
 ## Development Environment
 The backend is written in Python using the Django framework and a PostgreSQL database.
