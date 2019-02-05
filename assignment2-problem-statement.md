@@ -1,4 +1,6 @@
 # Problem Statement
+### Weather Visualizations
+#### Josh Alexander, John Connolly, Chris Kasza
 
 ## Brief Introduction
 The world needs more weather visualizations. We'll provide historical and real-time visualizations of weather. We'll use Canadian data to start but the solution will be location agnostic.
