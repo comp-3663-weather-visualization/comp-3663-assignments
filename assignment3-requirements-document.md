@@ -3,13 +3,10 @@ Due: Feb. 19
 ### Weather Visualizations
 #### Josh Alexander, John Connolly, Chris Kasza
 
-## Preface
-*This defines the expected readership of the document and describe its version history, including a rationale for the creation of a new version and a summary of the changes made in each version.*
-
 ## Introduction
-*This describes the need for the system. It should briefly describe the system’s functions and explain how it will work with other systems. It should also describe how the system fits into the overall business or strategic objectives of the organization commissioning the software.*
+Our system will serve up weather visualizations to clients via a user-friendly website. Our system interfaces with the OpenWeatherMap API to serve up the visualizations, and the system itself is a combination of front-end and back-end sub-systems. Our system attempts to achieve our overall goal of providing interesting and helpful weather graphs for a variety of clients.
 
-Our system will serve up weather visualizations to clients via a user-friendly website. Our system interfaces with the OpenWeatherMap API to serve up the visualizations, and the system itself is a combination of front-end and back-end sub-systems. Our system attempts to achieve our overall goal of providing interesting and helpful weather graphs for a variety of clients. 
+Our system will be more focused on easy to generate historical visualizations than weather forecasts. There are many easy to find websites that provide weather forecast data and visualizations. In comparison, generating charts representing historical weather data in a aesthetic and customizable way is harder to find. 
 
 ## Glossary
 *This defines the technical terms used in the document. You should not make assumptions about the experience or expertise of the reader.*
@@ -25,7 +22,7 @@ Our system will serve up weather visualizations to clients via a user-friendly w
 **Framework:** A framework is a generic abstraction/platform that provides functionality that is usually focused on *ease of programming* or the ability to make beautiful things easily (when dealing with web frameworks). 
 
 ## User requirements definition
-*Here, you describe the services provided for the user. The nonfunctional system requirements should also be described in this section. This description may use natural language, diagrams, or other notations that are understandable to customers. Product and process standards that must be followed should be specified.*
+The project provides the end user an easy to navigate interface to explore weather data for communities in Canada with a variety of different visualizations. That data can be reviewed using different charts for single time frames, as well as comparison charts for two timeframes.
 
 ## System architecture
 The system architecture will follow modern techniques for building webpages. Specifically the frontend and backend will be divided into their own services.  The frontend is written in HTML/CSS/JavaScript. The CSS framework, Bulma, is being leveraged along with the Nuxt.js, a JavaScript framework built on top of Vue.js. The backend will be written in python and use the django framework.  The staging site for the backend is Heroku.com and for the frontend it is Netlify.com. The production server will be a custom build on a DigitalOcean.com VPS. The database to hold the data gathered from the API is PostgreSQL
