@@ -1,4 +1,3 @@
-Due: Feb. 19
 # Requirements Doc
 ### Weather Visualizations
 #### Josh Alexander, John Connolly, Chris Kasza
@@ -9,8 +8,6 @@ Our system will serve up weather visualizations to clients via a user-friendly w
 Our system will be more focused on easy to generate historical visualizations than weather forecasts. There are many easy to find websites that provide weather forecast data and visualizations. In comparison, generating charts representing historical weather data in a aesthetic and customizable way is harder to find. 
 
 ## Glossary
-*This defines the technical terms used in the document. You should not make assumptions about the experience or expertise of the reader.*
-
 **Data visualization:** A way of displaying data in a comprehensible manner for human consumption.
 
 **API:** Application programming interface, an interface containing clearly defined methods for communication between programs, websites, data sets, etc.
@@ -42,10 +39,7 @@ Hypothetically, if the application was fully implemented and could compete in th
 
 ![dia](Pics/SEDiagram.jpg)
 
-*This chapter includes graphical system models showing the relationships between the system components and the system and its environment. Examples of possible models are object models, data-flow models, or semantic data models.*
-
 ## System evolution
-*This describes the fundamental assumptions on which the system is based, and any anticipated changes due to hardware evolution, changing user needs, and so on. This section is useful for system designers as it may help them avoid design decisions that would constrain likely future changes to the system.*
 
 The system is not expected to have hundreds of clients per day, but should be ready to expand easily in the event of increased demand. 
 
@@ -55,9 +49,7 @@ The database contains just data from the OpenWeatherMap, and we are right now no
 
 The system will only provide Canadian weather data to start. It is out of the scope of this project to provide international weather data. However, this could be an evolution that may come up later.
 
-## Appendices
-*These provide detailed, specific information that is related to the application being developed—for example, hardware and database descriptions. Hardware requirements define the minimal and optimal configurations for the system. Database requirements define the logical organization of the data used by the system and the relationships between data.*
-
+## Appendix
 
 The minimal requirements for the end-user are simply the requirements to run a modern browser. 
 
@@ -68,15 +60,7 @@ The hardware specifications of our DigitalOcean droplet is:
 1GB / 25GB Disk
 
 ## Index
-*Several indexes to the document may be included. As well as a normal alphabetic index, there may be an index of diagrams, an index of functions, and so on.*
 ### Figures Index
 Figure 1: View Visualization Sequence Diagram
 
 Figure 2: Use-case Diagram
-
-# Include "X" of the following:
-## User interface description 
-## System interface description 
-## References 
-## Some of the diagram types
-*Context, Process, Use-case, Sequence, Activity, State*
