@@ -22,7 +22,7 @@ Our system will be more focused on easy to generate historical visualizations th
 The project provides the end user an easy to navigate interface to explore weather data for communities in Canada with a variety of different visualizations. That data can be reviewed using different charts for single time frames, as well as comparison charts for two timeframes.
 
 ## System architecture
-The system architecture will follow modern techniques for building webpages. Specifically the frontend and backend will be divided into their own services.  The frontend is written in HTML/CSS/JavaScript. The CSS framework, Bulma, is being leveraged along with the Nuxt.js, a JavaScript framework built on top of Vue.js. The backend will be written in python and use the django framework.  The staging site for the backend is Heroku.com and for the frontend it is Netlify.com. The production server will be a custom build on a DigitalOcean.com VPS. The database to hold the data gathered from the API is PostgreSQL
+The system architecture will follow modern techniques for building webpages. Specifically the frontend and backend will be divided into their own services.  The frontend is written in HTML/CSS/JavaScript. The CSS framework, Bulma, is being leveraged along with the Nuxt.js, a JavaScript framework built on top of Vue.js. The backend will be written in python and use the **django framework**.  The system gathers information from **open weather maps API** rather building a weather station and collecting our own data.  The staging site for the backend is Heroku.com and for the frontend it is Netlify.com. The production server will be a custom build on a DigitalOcean.com VPS. The database to hold the data gathered from the API is PostgreSQL
 
 ## System requirements specification
 
@@ -30,6 +30,7 @@ The system architecture will follow modern techniques for building webpages. Spe
 The application must provide varied weather graphs.  
 The application must be hosted on and accessible via the web. 
 The application must be viewable on a variety of devices (mobile, tablet, desktop, TV, etc).
+The application must be highly availible and not experience downtimes.
 
 ### Non-functional requirements:
 Three months of part time developer time is not sufficient to produce a fully functioning weather application to compete in the existing market space.
