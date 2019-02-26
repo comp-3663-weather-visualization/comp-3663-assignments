@@ -16,10 +16,18 @@ Due: Feb. 19
 *Here, you describe the services provided for the user. The nonfunctional system requirements should also be described in this section. This description may use natural language, diagrams, or other notations that are understandable to customers. Product and process standards that must be followed should be specified.*
 
 ## System architecture
-*This chapter presents a high-level overview of the anticipated system architecture, showing the distribution of functions across system modules. Architectural components that are reused should be highlighted.*
+The system architecture will follow modern techniques for building webpages. Specifically the frontend and backend will be divided into their own services.  The frontend is written in HTML/CSS/JavaScript. The CSS framework, Bulma, is being leveraged along with the Nuxt.js, a JavaScript framework built on top of Vue.js. The backend will be written in python and use the django framework.  The staging site for the backend is Heroku.com and for the frontend it is Netlify.com. The production server will be a custom build on a DigitalOcean.com VPS.
 
 ## System requirements specification
-*This describes the functional and nonfunctional requirements in more detail. If necessary, further detail may also be added to the nonfunctional requirements. Interfaces to other systems may be defined.*
+
+### Functional Requirements:
+The application must provide varied weather graphs.  
+The application must be hosted on and accessible via the web. 
+The application must be viewable on a variety of devices (mobile, tablet, desktop, TV, etc).
+
+### Non-functional requirements:
+Three months of part time developer time is not sufficient to produce a fully functioning weather application to compete in the existing market space.
+Hypothetically, if the application was fully implemented and could compete in the market, the resources used to host it are not configured to scale to meet demand. And the group is not in a position to pay for the underlying compute power to support a scaling solution.
 
 ## System models
 *This chapter includes graphical system models showing the relationships between the system components and the system and its environment. Examples of possible models are object models, data-flow models, or semantic data models.*
