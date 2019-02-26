@@ -56,6 +56,9 @@ The system will only provide Canadian weather data to start. It is out of the sc
 
 ## Index
 *Several indexes to the document may be included. As well as a normal alphabetic index, there may be an index of diagrams, an index of functions, and so on.*
+### Figures Index
+Figure 1: View Visualization Sequence Diagram
+Figure 2: Use-case Diagram
 
 # Include "X" of the following:
 ## User interface description 
