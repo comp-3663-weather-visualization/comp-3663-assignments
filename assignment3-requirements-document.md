@@ -38,6 +38,9 @@ Three months of part time developer time is not sufficient to produce a fully fu
 Hypothetically, if the application was fully implemented and could compete in the market, the resources used to host it are not configured to scale to meet demand. And the group is not in a position to pay for the underlying compute power to support a scaling solution.
 
 ## System models
+
+![dia](Pics/DiagramSE2.pdf)
+
 *This chapter includes graphical system models showing the relationships between the system components and the system and its environment. Examples of possible models are object models, data-flow models, or semantic data models.*
 
 ## System evolution
