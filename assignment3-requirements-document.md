@@ -28,7 +28,7 @@ Our system will serve up weather visualizations to clients via a user-friendly w
 *Here, you describe the services provided for the user. The nonfunctional system requirements should also be described in this section. This description may use natural language, diagrams, or other notations that are understandable to customers. Product and process standards that must be followed should be specified.*
 
 ## System architecture
-The system architecture will follow modern techniques for building webpages. Specifically the frontend and backend will be divided into their own services.  The frontend is written in HTML/CSS/JavaScript. The CSS framework, Bulma, is being leveraged along with the Nuxt.js, a JavaScript framework built on top of Vue.js. The backend will be written in python and use the django framework.  The staging site for the backend is Heroku.com and for the frontend it is Netlify.com. The production server will be a custom build on a DigitalOcean.com VPS.
+The system architecture will follow modern techniques for building webpages. Specifically the frontend and backend will be divided into their own services.  The frontend is written in HTML/CSS/JavaScript. The CSS framework, Bulma, is being leveraged along with the Nuxt.js, a JavaScript framework built on top of Vue.js. The backend will be written in python and use the django framework.  The staging site for the backend is Heroku.com and for the frontend it is Netlify.com. The production server will be a custom build on a DigitalOcean.com VPS. The database to hold the data gathered from the API is PostgreSQL
 
 ## System requirements specification
 
@@ -60,6 +60,15 @@ The system will only provide Canadian weather data to start. It is out of the sc
 
 ## Appendices
 *These provide detailed, specific information that is related to the application being developed—for example, hardware and database descriptions. Hardware requirements define the minimal and optimal configurations for the system. Database requirements define the logical organization of the data used by the system and the relationships between data.*
+
+
+The minimal requirements for the end-user are simply the requirements to run a modern browser. 
+
+Our database is using PostgreSQL, the layout is extremely simple, just a single table.
+
+The hardware specifications of our DigitalOcean droplet is: 
+1 vCPUs
+1GB / 25GB Disk
 
 ## Index
 *Several indexes to the document may be included. As well as a normal alphabetic index, there may be an index of diagrams, an index of functions, and so on.*
