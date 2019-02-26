@@ -9,8 +9,13 @@ Due: Feb. 19
 ## Introduction
 *This describes the need for the system. It should briefly describe the system’s functions and explain how it will work with other systems. It should also describe how the system fits into the overall business or strategic objectives of the organization commissioning the software.*
 
+Our system will serve up weather visualizations to clients via a user-friendly website. Our system interfaces with the OpenWeather API to serve up the visualizations, and the system itself is a combination of front-end and back-end sub-systems. Our system attempts to achieve our overall goal of providing interesting and helpful weather graphs for a variety of clients. 
+
 ## Glossary
 *This defines the technical terms used in the document. You should not make assumptions about the experience or expertise of the reader.*
+
+**Data visualization:** A way of displaying data in a comprehensible manner for human consumption.
+**API:** Application programming interface, an interface containing clearly defined methods for communication between programs, websites, data sets, etc.
 
 ## User requirements definition
 *Here, you describe the services provided for the user. The nonfunctional system requirements should also be described in this section. This description may use natural language, diagrams, or other notations that are understandable to customers. Product and process standards that must be followed should be specified.*
@@ -32,3 +37,10 @@ Due: Feb. 19
 
 ## Index
 *Several indexes to the document may be included. As well as a normal alphabetic index, there may be an index of diagrams, an index of functions, and so on.*
+
+# Include "X" of the following:
+## User interface description 
+## System interface description 
+## References 
+## Some of the diagram types
+*Context, Process, Use-case, Sequence, Activity, State*
