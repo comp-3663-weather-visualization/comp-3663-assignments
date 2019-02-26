@@ -9,13 +9,16 @@ Due: Feb. 19
 ## Introduction
 *This describes the need for the system. It should briefly describe the system’s functions and explain how it will work with other systems. It should also describe how the system fits into the overall business or strategic objectives of the organization commissioning the software.*
 
-Our system will serve up weather visualizations to clients via a user-friendly website. Our system interfaces with the OpenWeather API to serve up the visualizations, and the system itself is a combination of front-end and back-end sub-systems. Our system attempts to achieve our overall goal of providing interesting and helpful weather graphs for a variety of clients. 
+Our system will serve up weather visualizations to clients via a user-friendly website. Our system interfaces with the OpenWeatherMap API to serve up the visualizations, and the system itself is a combination of front-end and back-end sub-systems. Our system attempts to achieve our overall goal of providing interesting and helpful weather graphs for a variety of clients. 
 
 ## Glossary
 *This defines the technical terms used in the document. You should not make assumptions about the experience or expertise of the reader.*
 
 **Data visualization:** A way of displaying data in a comprehensible manner for human consumption.
+
 **API:** Application programming interface, an interface containing clearly defined methods for communication between programs, websites, data sets, etc.
+
+**OpenWeatherMap:** An online service that provides free weather data via an API.
 
 ## User requirements definition
 *Here, you describe the services provided for the user. The nonfunctional system requirements should also be described in this section. This description may use natural language, diagrams, or other notations that are understandable to customers. Product and process standards that must be followed should be specified.*
@@ -31,6 +34,12 @@ Our system will serve up weather visualizations to clients via a user-friendly w
 
 ## System evolution
 *This describes the fundamental assumptions on which the system is based, and any anticipated changes due to hardware evolution, changing user needs, and so on. This section is useful for system designers as it may help them avoid design decisions that would constrain likely future changes to the system.*
+
+The system is not expected to have hundreds of clients per day, but should be ready to expand easily in the event of increased demand. 
+
+The free version of OpenWeatherMap allows for 60 responses per minute, we would have to purchase a plan for more requests if they become neccessary due to high demand. We can not afford this, so this is a limiting factor for our system.
+
+The database contains just data from the OpenWeatherMap, and we are right now not planning on storing anything else. The rate of expansion required for the database should be constant, and there are no foreseen rapid expansions planned.
 
 ## Appendices
 *These provide detailed, specific information that is related to the application being developed—for example, hardware and database descriptions. Hardware requirements define the minimal and optimal configurations for the system. Database requirements define the logical organization of the data used by the system and the relationships between data.*
