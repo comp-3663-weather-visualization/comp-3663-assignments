@@ -20,6 +20,10 @@ Our system will serve up weather visualizations to clients via a user-friendly w
 
 **OpenWeatherMap:** An online service that provides free weather data via an API.
 
+**HTML/CSS/JavaScript:** These are all programming languages that makeup websites. HTML is the content, CSS is the styling, and Javascript is extra functionality, like animations, events, etc.
+
+**Framework:** A framework is a generic abstraction/platform that provides functionality that is usually focused on *ease of programming* or the ability to make beautiful things easily (when dealing with web frameworks). 
+
 ## User requirements definition
 *Here, you describe the services provided for the user. The nonfunctional system requirements should also be described in this section. This description may use natural language, diagrams, or other notations that are understandable to customers. Product and process standards that must be followed should be specified.*
 
