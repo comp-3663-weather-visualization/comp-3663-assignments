@@ -14,11 +14,13 @@ Django was chosen for the backend because of its popularity and its ease of use.
 
 Abstract diagram of the architecture (like the packing robot example)
 
-Answers to these questions
 
-1. How will the structural components be broken into sub-components?
 
-2. How will the system be distributed?
+**How will the structural components be broken into sub-components?**
+
+**How will the system be distributed?**
+
 The application will be distributed via the internet, by building a web based application it allows us to distribute the application easily to a wide variety of devices without have to worry about specify hardware requirements.  
 
-3. Which of these system characteristics will be prioritized, how, and why: performance, security, safety, availability, maintainability
+**Which of these system characteristics will be prioritized, how, and why: performance, security, safety, availability, maintainability**
+
