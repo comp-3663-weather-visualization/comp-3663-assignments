@@ -2,27 +2,51 @@
 ### Weather Visualizations
 #### Josh Alexander, John Connolly, Chris Kasza
 
-## Introduction
+## 1. Preface
+### 1.1 Revision History
+Version 1.1 - 2019-03-05 - Add context in sections where lacking
+Version 1.0 - 2019-02-26 - Initial description
+
+### 1.2 Audience
+This document is written for the developers of this software project as a reference point of what should be developed and delivered and to avoid feature creep. Considering this software project is being developed as a requirement of the class, COMP 3663 X2, at Acadia University, it is expected that the professor, and possible teaching assistants, will read the document as well.
+
+## 2. Introduction
 Our system will serve up weather visualizations to clients via a user-friendly website. Our system interfaces with the OpenWeatherMap API to serve up the visualizations, and the system itself is a combination of front-end and back-end sub-systems. Our system attempts to achieve our overall goal of providing interesting and helpful weather graphs for a variety of clients.
 
 Our system will be more focused on easy to generate historical visualizations than weather forecasts. There are many easy to find websites that provide weather forecast data and visualizations. In comparison, generating charts representing historical weather data in a aesthetic and customizable way is harder to find. 
 
-## Glossary
-**Data visualization:** A way of displaying data in a comprehensible manner for human consumption.
-
+## 3. Glossary
 **API:** Application programming interface, an interface containing clearly defined methods for communication between programs, websites, data sets, etc.
 
-**OpenWeatherMap:** An online service that provides free weather data via an API.
-
-**HTML/CSS/JavaScript:** These are all programming languages that makeup websites. HTML is the content, CSS is the styling, and Javascript is extra functionality, like animations, events, etc.
+**Data visualization:** A way of displaying data in a comprehensible manner for human consumption.
 
 **Framework:** A framework is a generic abstraction/platform that provides functionality that is usually focused on *ease of programming* or the ability to make beautiful things easily (when dealing with web frameworks). 
 
-## User requirements definition
-The project provides the end user an easy to navigate interface to explore weather data for communities in Canada with a variety of different visualizations. That data can be reviewed using different charts for single time frames, as well as comparison charts for two timeframes.
+**HTML/CSS/JavaScript:** These are all programming languages that makeup websites. HTML (hypertext markup language) is the content, CSS (cascading stylesheets) is the styling, and JavaScript is extra functionality, like animations, events, etc.
+
+**OpenWeatherMap:** An online service that provides weather data via an API. There are free and paid tiers to their service.
+
+**VPS:** Virtual Private Server. A virtual machine provided as a rentable service via a web host such as DigitalOcean or Linode.
+
+## 4. User requirements definition
+4.1. The system shall be accessible as a web application from anywhere in the Canada provided the user has a computer with an Internet connection and a modern web browser (Firefox, Chrome, Safari, Opera, Microsoft Edge, etc.).
+
+4.2. The system shall not require authentication or user accounts. Users access the services provided by the web application on demand with ease.
+
+4.3 The system shall determine the user's current geographic location if location services are permitted via the web browser. 
+
+4.4. Upon initially browsing to the web application, the user will receive the current weather information for their geographic location if the location service is enabled; otherwise, the system will default to Toronto, ON, the center of the country.
+
+4.5. The system shall provide the user the ability to change the location from the default to any other community in Canada. Changing the community will automatically display the current weather for the selected community.
+
+4.6. The system shall provide the ability two display two temperature charts.
+
+4.6.1. The first temperature chart will display line graph with temperature displayed in the Y-axis and time in the X-axis. The user will select the start and end time for the time frame.
+
+4.6.2. The second chart will also display a line graph of temperature. The difference is that the user chooses two time frames to compare. The user will select the start time for each time frame and then specify a duration that will be used for both.
 
 ## System architecture
-The system architecture will follow modern techniques for building webpages. Specifically the frontend and backend will be divided into their own services.  The frontend is written in HTML/CSS/JavaScript. The CSS framework, Bulma, is being leveraged along with the Nuxt.js, a JavaScript framework built on top of Vue.js. The backend will be written in python and use the **django framework**.  The system gathers information from **open weather maps API** rather building a weather station and collecting our own data.  The staging site for the backend is Heroku.com and for the frontend it is Netlify.com. The production server will be a custom build on a DigitalOcean.com VPS. The database to hold the data gathered from the API is PostgreSQL
+The system architecture will follow modern techniques for building webpages. Specifically the frontend and backend will be divided into their own services.  The frontend is written in HTML/CSS/JavaScript. The CSS framework, Bulma, is being leveraged along with the Nuxt.js, a JavaScript framework built on top of Vue.js. The backend will be written in python and use the Django framework**.  The system gathers information from OpenWeatherMaps API rather building a weather station and collecting our own data.  The staging site for the backend is Heroku.com and for the frontend it is Netlify.com. The production server will be a custom build on a DigitalOcean VPS. The database to hold the data gathered from the API is PostgreSQL
 
 ## System requirements specification
 
