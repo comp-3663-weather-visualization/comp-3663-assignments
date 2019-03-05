@@ -20,11 +20,17 @@ Our system will be more focused on easy to generate historical visualizations th
 ## 3. Glossary
 **API:** Application programming interface, an interface containing clearly defined methods for communication between programs, websites, data sets, etc.
 
-**Data visualization:** A way of displaying data in a comprehensible manner for human consumption.
+**Backend:** Refers to the portion of the web application that runs on a server. Think of the user's browser as the client and the backend is the server the client connects to. The backend handles the interaction with the database, any heavy computations, and delivering data to the frontend.
+
+**Django:** An MVT (model-view-template) framework written in Python. Provides both a backend and a frontend but the system being built will only use Django to deliver an API.
 
 **Framework:** A framework is a generic abstraction/platform that provides functionality that is usually focused on *ease of programming* or the ability to make beautiful things easily (when dealing with web frameworks). 
 
+**Frontend:** Refers to the portion of a web application that a user directly interfaces with. The portion that renders on in the user's web browser.
+
 **HTML/CSS/JavaScript:** These are all programming languages that makeup websites. HTML (hypertext markup language) is the content, CSS (cascading stylesheets) is the styling, and JavaScript is extra functionality, like animations, events, etc.
+
+**Nuxt.js:** A JavaScript framework that extends the functionality of the Vue.js framework. It allows for rapid development and delivery of a modern JavaScript frontend.
 
 **OpenWeatherMap:** An online service that provides weather data via an API. There are free and paid tiers to their service.
 
@@ -47,28 +53,28 @@ Our system will be more focused on easy to generate historical visualizations th
 
 4.6.2. The second chart will also display a line graph of temperature. The difference is that the user chooses two time frames to compare. The user will select the start time for each time frame and then specify a duration that will be used for both.
 
-## System architecture
-The system architecture will follow modern techniques for building webpages. Specifically the frontend and backend will be divided into their own services.  The frontend is written in HTML/CSS/JavaScript. The CSS framework, Bulma, is being leveraged along with the Nuxt.js, a JavaScript framework built on top of Vue.js. The backend will be written in python and use the Django framework**.  The system gathers information from OpenWeatherMaps API rather building a weather station and collecting our own data.  The staging site for the backend is Heroku.com and for the frontend it is Netlify.com. The production server will be a custom build on a DigitalOcean VPS. The database to hold the data gathered from the API is PostgreSQL
+## 5. System architecture
+The system architecture will follow modern techniques for building web sites. Specifically the frontend and backend will be divided into their own services.  The frontend is written in HTML/CSS/JavaScript. The CSS framework, Bulma, is being leveraged along with the Nuxt.js, a JavaScript framework built on top of Vue.js. The backend will be written in Python and use the Django framework.  The system gathers information from OpenWeatherMaps API rather building a weather station and collecting our own data.  The staging site for the backend is Heroku.com and for the frontend it is Netlify.com. The production server will be a custom build on a DigitalOcean VPS. The database to hold the data gathered from the API is PostgreSQL
 
-## System requirements specification
+## 6. System requirements specification
 
-### Functional Requirements:
+### 6.1. Functional Requirements:
 The application must provide varied weather graphs.  
 The application must be hosted on and accessible via the web. 
 The application must be viewable on a variety of devices (mobile, tablet, desktop, TV, etc).
 The application must be highly availible and not experience downtimes.
 
-### Non-functional requirements:
+### 6.2. Non-functional requirements:
 Three months of part time developer time is not sufficient to produce a fully functioning weather application to compete in the existing market space.
 Hypothetically, if the application was fully implemented and could compete in the market, the resources used to host it are not configured to scale to meet demand. And the group is not in a position to pay for the underlying compute power to support a scaling solution.
 
-## System models
+## 7. System models
 
 ![diagram1](Pics/SequenceDiagram.jpg)
 
 ![diagram2](Pics/UseDiagram.jpg)
 
-## System evolution
+## 8. System evolution
 
 The system is not expected to have hundreds of clients per day, but should be ready to expand easily in the event of increased demand. 
 
@@ -78,7 +84,7 @@ The database contains just data from the OpenWeatherMap, and we are right now no
 
 The system will only provide Canadian weather data to start. It is out of the scope of this project to provide international weather data. However, this could be an evolution that may come up later.
 
-## Appendix
+## 9. Appendix
 
 The minimal requirements for the end-user are simply the requirements to run a modern browser. 
 
@@ -88,7 +94,7 @@ The hardware specifications of our DigitalOcean droplet is:
 1 vCPUs
 1GB / 25GB Disk
 
-## Index
+## 10. Index
 ### Figures Index
 Figure 1: View Visualization Sequence Diagram
 
