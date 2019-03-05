@@ -73,7 +73,7 @@ The system architecture will follow modern techniques for building web sites. Sp
 
 6.1.4. The application must be highly availible and not experience downtimes.
 
-6.1.5. The application must access the OpenWeatherMap API and fetch new data.
+6.1.5. The application must access the OpenWeatherMap API and fetch new data incrementally, as well as get relevant historical data once for comparisons.
 
 6.1.6. The application must allow selection of different locations as well as different times.
 
