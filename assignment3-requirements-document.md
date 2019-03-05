@@ -41,7 +41,7 @@ Our system will be more focused on easy to generate historical visualizations th
 
 4.2. The system shall not require authentication or user accounts. Users access the services provided by the web application on demand with ease.
 
-4.3 The system shall determine the user's current geographic location if location services are permitted via the web browser. 
+4.3. The system shall determine the user's current geographic location if location services are permitted via the web browser. 
 
 4.4. Upon initially browsing to the web application, the user will receive the current weather information for their geographic location if the location service is enabled; otherwise, the system will default to Toronto, ON, the center of the country.
 
@@ -53,7 +53,7 @@ Our system will be more focused on easy to generate historical visualizations th
 
 4.6.2. The second chart will also display a line graph of temperature. The difference is that the user chooses two time frames to compare. The user will select the start time for each time frame and then specify a duration that will be used for both.
 
-4.7 There shall be a input element to change the unit of the temperature between Celsius, Farenheit and Kelvin. 
+4.7. There shall be a input element to change the unit of the temperature between Celsius, Farenheit and Kelvin. 
 
 ## 5. System architecture
 The system architecture will follow modern techniques for building web sites. Specifically the frontend and backend will be divided into their own services.  The frontend is written in HTML/CSS/JavaScript. The CSS framework, Bulma, is being leveraged along with the Nuxt.js, a JavaScript framework built on top of Vue.js. The backend will be written in Python and use the Django framework.  The system gathers information from OpenWeatherMaps API rather building a weather station and collecting our own data.  The staging site for the backend is Heroku.com and for the frontend it is Netlify.com. The production server will be a custom build on a DigitalOcean VPS. The database to hold the data gathered from the API is PostgreSQL
@@ -61,22 +61,36 @@ The system architecture will follow modern techniques for building web sites. Sp
 ## 6. System requirements specification
 
 ### 6.1. Functional Requirements:
-The application must provide varied weather graphs.  
-The application must be hosted on and accessible via the web. 
-The application must be viewable on a variety of devices (mobile, tablet, desktop, TV, etc).
-The application must be highly availible and not experience downtimes.
-The application must access the OpenWeatherMap API and fetch new data every 60 seconds. 
-The application must allow the user to select different locations to view their weather.
-The application must allow switching between different temperature units.
+6.1.1. The application must provide varied weather graphs.  
+
+6.1.2. The application must be hosted on and accessible via the web. 
+
+6.1.3. The application must be viewable on a variety of devices (mobile, tablet, desktop, TV, etc).
+
+6.1.4. The application must be highly availible and not experience downtimes.
+
+6.1.5. The application must access the OpenWeatherMap API and fetch new data every 60 seconds. 
+
+6.1.6. The application must allow the user to select different locations to view their weather.
+
+6.1.7. The application must allow switching between different temperature units.
+
 
 ### 6.2. Non-functional requirements:
-The application should be outfitted with an aesthetically appealing colour pallete.
-The application should have interesting and quirky visualizations that aren't common.
-The application should be beautifully responsive, and react very nicely and prettily to changing window sizes.
-The application should be fully accessable in future releases, however this is not at all a priority requirement.
-The application should transition between different location selections gracefully.
-The application should fetch and load the appropriate data within 300 miliseconds.
-The application should have aesthetic input elements and graphs to please the eye with a certain je ne sais quoi.
+6.2.1. The application should be outfitted with an aesthetically appealing colour pallete.
+
+6.2.2. The application should have interesting and quirky visualizations that aren't common.
+
+6.2.3. The application should be beautifully responsive, and react very nicely and prettily to changing window sizes.
+
+6.2.4. The application should be fully accessable in future releases, however this is not at all a priority requirement.
+
+6.2.5. The application should transition between different location selections gracefully.
+
+6.2.6. The application should fetch and load the appropriate data within 300 miliseconds.
+
+6.2.7. The application should have aesthetic input elements and graphs to please the eye with a certain je ne sais quoi.
+
 
 
 ## 7. System models
