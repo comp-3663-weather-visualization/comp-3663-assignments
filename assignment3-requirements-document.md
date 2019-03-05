@@ -38,9 +38,9 @@ Hypothetically, if the application was fully implemented and could compete in th
 
 ## System models
 
-![diagram1](Pics/UseDiagram.jpg)
+![diagram1](Pics/SequenceDiagram.jpg)
 
-![diagram2](Pics/SE2-2.jpg)
+![diagram2](Pics/UseDiagram.jpg)
 
 ## System evolution
 
