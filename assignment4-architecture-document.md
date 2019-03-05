@@ -24,3 +24,8 @@ The application will be distributed via the internet, by building a web based ap
 
 **Which of these system characteristics will be prioritized, how, and why: performance, security, safety, availability, maintainability**
 
+When designing our application we chose to prioritize maintainability.  By using off the shelf components and having them loosely coupled the program is easier to understand, repaired and extend.  In many software projects maintenance is often one of the largest costs therefore we have chosen to minimize them by prioritizing maintainability. 
+
+Our application does not collect any user data, it only displays data to users.  The biggest threat to security will be DOS (Denial of Service (DoS) attack) however the value of the information being displayed doesn’t have significant value so the likely of a DOS attack would be quite low, therefore this is not our main priority. 
+
+Lastly performance, safety and availability are not prioritized because of they do not have a large impact on the our indentended users or the project costs
