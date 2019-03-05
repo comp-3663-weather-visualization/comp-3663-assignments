@@ -22,7 +22,7 @@ Our system will be more focused on easy to generate historical visualizations th
 
 **Backend:** Refers to the portion of the web application that runs on a server. Think of the user's browser as the client and the backend is the server the client connects to. The backend handles the interaction with the database, any heavy computations, and delivering data to the frontend.
 
-**Django:** An MVT (model-view-template) framework written in Python. Provides both a backend and a frontend but the system being built will only use Django to deliver an API.
+**Django:** An MVT (model-view-template) framework written in Python. Provides both a backend and a frontend but the system being built will only use Django to deliver an API. [1]
 
 **Framework:** A framework is a generic abstraction/platform that provides functionality that is usually focused on *ease of programming* or the ability to make beautiful things easily (when dealing with web frameworks). 
 
@@ -30,9 +30,9 @@ Our system will be more focused on easy to generate historical visualizations th
 
 **HTML/CSS/JavaScript:** These are all programming languages that makeup websites. HTML (hypertext markup language) is the content, CSS (cascading stylesheets) is the styling, and JavaScript is extra functionality, like animations, events, etc.
 
-**Nuxt.js:** A JavaScript framework that extends the functionality of the Vue.js framework. It allows for rapid development and delivery of a modern JavaScript frontend.
+**Nuxt.js:** A JavaScript framework that extends the functionality of the Vue.js framework. It allows for rapid development and delivery of a modern JavaScript frontend. [2]
 
-**OpenWeatherMap:** An online service that provides weather data via an API. There are free and paid tiers to their service.
+**OpenWeatherMap:** An online service that provides weather data via an API. There are free and paid tiers to their service. [3]
 
 **VPS:** Virtual Private Server. A virtual machine provided as a rentable service via a web host such as DigitalOcean or Linode.
 
@@ -84,17 +84,19 @@ The database contains just data from the OpenWeatherMap, and we are right now no
 
 The system will only provide Canadian weather data to start. It is out of the scope of this project to provide international weather data. However, this could be an evolution that may come up later.
 
-## 9. Appendix
+## 9. Interface description
 
-The minimal requirements for the end-user are simply the requirements to run a modern browser. 
+## 10. System interface description 
 
-Our database is using PostgreSQL, the layout is extremely simple, just a single table.
+## 11. References
 
-The hardware specifications of our DigitalOcean droplet is: 
-1 vCPUs
-1GB / 25GB Disk
+[1] "Django Documentation | Django", Djangoproject.com, 2019. [Online]. Available: https://docs.djangoproject.com/en/2.1/. [Accessed: 05- Mar- 2019].
 
-## 10. Index
+[2] "Introduction - Nuxt.js", Nuxtjs.org, 2019. [Online]. Available: https://nuxtjs.org/guide. [Accessed: 05- Mar- 2019].
+
+[3] "Weather API - OpenWeatherMap", Openweathermap.org, 2019. [Online]. Available: https://openweathermap.org/api. [Accessed: 05- Mar- 2019].
+
+## 12. Index
 ### Figures Index
 Figure 1: View Visualization Sequence Diagram
 
