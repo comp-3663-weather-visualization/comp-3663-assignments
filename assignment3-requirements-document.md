@@ -79,12 +79,6 @@ The application should fetch and load the appropriate data within 300 milisecond
 The application should have aesthetic input elements and graphs to please the eye with a certain je ne sais quoi.
 
 
-
-
-Three months of part time developer time is not sufficient to produce a fully functioning weather application to compete in the existing market space.
-Hypothetically, if the application was fully implemented and could compete in the market, the resources used to host it are not configured to scale to meet demand. And the group is not in a position to pay for the underlying compute power to support a scaling solution.
-
-
 ## 7. System models
 
 ![diagram1](Pics/SequenceDiagram.jpg)
