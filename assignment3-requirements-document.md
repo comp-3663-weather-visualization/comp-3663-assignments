@@ -5,6 +5,7 @@
 ## 1. Preface
 ### 1.1 Revision History
 Version 1.1 - 2019-03-05 - Add context in sections where lacking
+
 Version 1.0 - 2019-02-26 - Initial description
 
 ### 1.2 Audience
