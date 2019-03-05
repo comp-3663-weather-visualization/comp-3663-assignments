@@ -53,6 +53,10 @@ Our system will be more focused on easy to generate historical visualizations th
 
 4.6.2. The second chart will also display a line graph of temperature. The difference is that the user chooses two time frames to compare. The user will select the start time for each time frame and then specify a duration that will be used for both.
 
+4.6.3 The time frame for the graphs shall be able to be changed via a drop down between various different times (eg. 1 year).
+
+4.7. There shall be a input element to change the unit of the temperature between Celsius, Farenheit and Kelvin.4.8. There shall be an input element to search for different locations to view their local weather.
+
 4.7. There shall be a input element to change the unit of the temperature between Celsius, Farenheit and Kelvin. 
 
 ## 5. System architecture
@@ -71,7 +75,7 @@ The system architecture will follow modern techniques for building web sites. Sp
 
 6.1.5. The application must access the OpenWeatherMap API and fetch new data every 60 seconds. 
 
-6.1.6. The application must allow the user to select different locations to view their weather.
+6.1.6. The application must allow selection of different locations as well as different times.
 
 6.1.7. The application must allow switching between different temperature units.
 
