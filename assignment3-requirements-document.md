@@ -127,6 +127,15 @@ Above the chart will be a toggle to switch between the single line chart and the
 
 ## 10. System interface description 
 
+Key components in the system are the database, Django backend, and Nuxt.js frontend.
+
+Every sixty minutes, a job will kick off in Django that queries the OpenWeatherMaps API for the current temperature of all of the communities and saves those temperatures to the database. Django provides an interface to common databases out of the box.
+
+The Django backend will provide three RESTful API endpoints that the Nuxt.js frontend will query to retrieve data.
+1. GET communities - returns a list of the communities available to be viewed
+2. POST current - provided a community ID, the endpoint will return the current weather information for the given community
+3. POST temp_range - provided a community ID and a date range, the endpoint will return an array of temperature values
+
 ## 11. References
 
 [1] "Django Documentation | Django", Djangoproject.com, 2019. [Online]. Available: https://docs.djangoproject.com/en/2.1/. [Accessed: 05- Mar- 2019].
