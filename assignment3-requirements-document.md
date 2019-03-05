@@ -4,9 +4,10 @@
 
 ## 1. Preface
 ### 1.1 Revision History
-Version 1.1 - 2019-03-05 - Add context in sections where lacking
-
-Version 1.0 - 2019-02-26 - Initial description
+| Version | Date       | Comment                               |
+| -------:|:----------:| ------------------------------------- |
+| 1.1     | 2019-03-05 | Add context in sections where lacking |
+| 1.0     | 2019-02-26 | Initial description                   |
 
 ### 1.2 Audience
 This document is written for the developers of this software project as a reference point of what should be developed and delivered and to avoid feature creep. Considering this software project is being developed as a requirement of the class, COMP 3663 X2, at Acadia University, it is expected that the professor, and possible teaching assistants, will read the document as well.
