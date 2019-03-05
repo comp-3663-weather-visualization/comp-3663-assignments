@@ -53,6 +53,8 @@ Our system will be more focused on easy to generate historical visualizations th
 
 4.6.2. The second chart will also display a line graph of temperature. The difference is that the user chooses two time frames to compare. The user will select the start time for each time frame and then specify a duration that will be used for both.
 
+4.7 There shall be a input element to change the unit of the temperature between Celsius, Farenheit and Kelvin. 
+
 ## 5. System architecture
 The system architecture will follow modern techniques for building web sites. Specifically the frontend and backend will be divided into their own services.  The frontend is written in HTML/CSS/JavaScript. The CSS framework, Bulma, is being leveraged along with the Nuxt.js, a JavaScript framework built on top of Vue.js. The backend will be written in Python and use the Django framework.  The system gathers information from OpenWeatherMaps API rather building a weather station and collecting our own data.  The staging site for the backend is Heroku.com and for the frontend it is Netlify.com. The production server will be a custom build on a DigitalOcean VPS. The database to hold the data gathered from the API is PostgreSQL
 
@@ -63,10 +65,25 @@ The application must provide varied weather graphs.
 The application must be hosted on and accessible via the web. 
 The application must be viewable on a variety of devices (mobile, tablet, desktop, TV, etc).
 The application must be highly availible and not experience downtimes.
+The application must access the OpenWeatherMap API and fetch new data every 60 seconds. 
+The application must allow the user to select different locations to view their weather.
+The application must allow switching between different temperature units.
 
 ### 6.2. Non-functional requirements:
+The application should be outfitted with an aesthetically appealing colour pallete.
+The application should have interesting and quirky visualizations that aren't common.
+The application should be beautifully responsive, and react very nicely and prettily to changing window sizes.
+The application should be fully accessable in future releases, however this is not at all a priority requirement.
+The application should transition between different location selections gracefully.
+The application should fetch and load the appropriate data within 300 miliseconds.
+The application should have aesthetic input elements and graphs to please the eye with a certain je ne sais quoi.
+
+
+
+
 Three months of part time developer time is not sufficient to produce a fully functioning weather application to compete in the existing market space.
 Hypothetically, if the application was fully implemented and could compete in the market, the resources used to host it are not configured to scale to meet demand. And the group is not in a position to pay for the underlying compute power to support a scaling solution.
+
 
 ## 7. System models
 
