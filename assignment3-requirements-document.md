@@ -109,7 +109,17 @@ The database contains just data from the OpenWeatherMap, and we are right now no
 
 The system will only provide Canadian weather data to start. It is out of the scope of this project to provide international weather data. However, this could be an evolution that may come up later.
 
-## 9. Interface description
+## 9. User interface description
+
+The goal of the user interface is to be simple and intuitive. As stated in the user requirements, a user browses to the web application and is presented with the current weather information for their geographic location (or Toronto if location services is disabled). 
+
+Clicking the community name will expose an input field with an automatically filtered drop down. The user can enter in a different community name in the input field and the system will automatically display a list of options that the user can select. The current weather data will automatically change to reflect the newly selected community.
+
+In top center of the page, there shall be two tabs, Home and Graphing. Clicking Home will return the user to the home page which displays the current weather information and click Graph will display the graphing page.
+
+The initial display of the graphing page will display a chart with last year's temperature data for whichever community the user previously chose.
+
+Above the chart will be a toggle to switch between the single line chart and the comparison chart. To the right of the toggle will be the drop down to select the time frames used in the chart.
 
 ## 10. System interface description 
 
