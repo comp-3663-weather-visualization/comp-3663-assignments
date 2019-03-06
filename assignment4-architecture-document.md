@@ -12,8 +12,9 @@ Django was chosen for the backend because of its popularity and its ease of use.
 - frontend system - Vue.js
 - data storage system - PostgreSQL RDBMS
 
-Abstract diagram of the architecture (like the packing robot example)
+**Abstract diagram**
 
+![architecture](/Pics/Arch.png)
 
 
 **How will the structural components be broken into sub-components?**
