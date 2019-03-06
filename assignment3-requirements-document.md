@@ -55,9 +55,9 @@ Our system will be more focused on easy to generate historical visualizations th
 
 4.6.3 The time frame for the graphs shall be able to be changed via a drop down between various different times (eg. 1 year).
 
-4.7. There shall be a input element to change the unit of the temperature between Celsius, Farenheit and Kelvin.4.8. There shall be an input element to search for different locations to view their local weather.
+4.7. There shall be a input element to change the unit of the temperature between Celsius, Farenheit and Kelvin.
 
-4.7. There shall be a input element to change the unit of the temperature between Celsius, Farenheit and Kelvin. 
+4.8. There shall be an input element to search for different locations to view their local weather.
 
 ## 5. System architecture
 The system architecture will follow modern techniques for building web sites. Specifically the frontend and backend will be divided into their own services.  The frontend is written in HTML/CSS/JavaScript. The CSS framework, Bulma, is being leveraged along with the Nuxt.js, a JavaScript framework built on top of Vue.js. The backend will be written in Python and use the Django framework.  The system gathers information from OpenWeatherMaps API rather building a weather station and collecting our own data.  The staging site for the backend is Heroku.com and for the frontend it is Netlify.com. The production server will be a custom build on a DigitalOcean VPS. The database to hold the data gathered from the API is PostgreSQL
@@ -65,36 +65,35 @@ The system architecture will follow modern techniques for building web sites. Sp
 ## 6. System requirements specification
 
 ### 6.1. Functional Requirements:
-6.1.1. The application must provide varied weather graphs.  
+6.1.1. The system must provide temperature graphs.  
 
-6.1.2. The application must be hosted on and accessible via the web. 
+6.1.2. The system must be accessible via the web. 
 
-6.1.3. The application must be viewable on a variety of devices (mobile, tablet, desktop, TV, etc).
+6.1.3. The system must be viewable on a variety of devices (mobile, tablet, desktop, TV, etc).
 
-6.1.4. The application must be highly availible and not experience downtimes.
+6.1.4. The system must be highly available and not experience downtimes.
 
-6.1.5. The application must access the OpenWeatherMap API and fetch new data incrementally, as well as get relevant historical data once for comparisons.
+6.1.5. The system must access the OpenWeatherMap API and fetch new data every sixty minutes.
 
-6.1.6. The application must allow selection of different locations as well as different times.
+6.1.6. The system must allow selection of different locations.
 
-6.1.7. The application must allow switching between different temperature units.
+6.1.7. The system must allow for displaying different time ranges in the graphs.
+
+6.1.8. The system must allow switching between different temperature units.
 
 
 ### 6.2. Non-functional requirements:
-6.2.1. The application should be outfitted with an aesthetically appealing colour pallete.
+6.2.1. The system should be outfitted with an aesthetically appealing colour pallete.
 
-6.2.2. The application should have interesting and quirky visualizations that aren't common.
+6.2.2. The system should maintain a consistent aesthetic while being responsive (viewable on a variety of different screen sizes).
 
-6.2.3. The application should be beautifully responsive, and react very nicely and prettily to changing window sizes.
+6.2.3. The system should be fully accessible in future releases.
 
-6.2.4. The application should be fully accessable in future releases, however this is not at all a priority requirement.
+6.2.4. The system should transition between different location selections gracefully.
 
-6.2.5. The application should transition between different location selections gracefully.
+6.2.5. The system should fetch and load the appropriate data within 300 milliseconds.
 
-6.2.6. The application should fetch and load the appropriate data within 300 miliseconds.
-
-6.2.7. The application should have aesthetic input elements and graphs to please the eye with a certain je ne sais quoi.
-
+6.2.6. The system should have aesthetic input elements and graphs that please the eye with a certain je ne sais quoi.
 
 
 ## 7. System models
