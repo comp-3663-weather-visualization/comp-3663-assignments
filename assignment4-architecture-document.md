@@ -1,4 +1,7 @@
 # Architecture Document
+### Weather Visualizations
+#### Josh Alexander, John Connolly, Chris Kasza
+
 
 **Description of Architectural Pattern/Style and why it was chosen**
 - backend system - MVT (model-view-template) pattern (synonymous with MVC [model-view-controller])
