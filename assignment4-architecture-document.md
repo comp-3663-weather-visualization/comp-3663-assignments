@@ -18,6 +18,7 @@ Django was chosen for the backend because of its popularity and its ease of use.
 
 
 **How will the structural components be broken into sub-components?**
+
 The structural components are broken into sub-components by decomposition.  For instance in our Vue.js front end we have a module for components that contains the subcomponents which make up our web page.  This allows for are components to be easily understood as they do only one thing. Similarly in our Django backend we decompose our route handler to have their own controller and corresponding model class for contain the views state. 
 
 **How will the system be distributed?**
