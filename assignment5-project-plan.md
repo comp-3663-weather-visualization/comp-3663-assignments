@@ -42,63 +42,83 @@ The server we are hosting our website on is a DigitialOcean virtual server (call
 ## 5. Work breakdown
 #### Break into activities with inputs and outputs
 
-###### T1: API & Database Integration
-* Input:
+###### T1: Project Brainstorming
+* Input: Creativity.
 
-* Output: A working database that correctly pulls and stores data from the OpenWeatherMap API.
+* Output: An idea for a project that utilizes an open data source.
+
+###### T2: Problem Statement
+* Input: A creative idea.
+
+* Output: A formalized project layout aiming to solve a problem and satisfy requirements.
+
+###### T3: Requirements Document
+* Input: Problem Statement.
+
+* Output: A concrete list of requirements that we must satisfy with our project.
+
+###### T4: Architecture Document
+* Input: Requirements Document.
+
+* Output: A hand-picked list of hardware and sofware, and their interactions to satisfy the needs of our project.
+
+###### T5: API & Database Integration
+* Input: Architecture Document, Requirements document, programmer time.
+
+* Output: A working database that correctly pulls and stores data from the OpenWeatherMap API to satisfy our requirements.
 
 
-###### T2: Back-end Prototype
-* Input:
+###### T6: Back-end Prototype
+* Input: Architecture Document, programmer time.
 
 * Output: A working prototype back-end.
 
 
-###### T3: Front-end Prototype
-* Input:
+###### T7: Front-end Prototype
+* Input: Architecture Document, programmer time.
 
 * Output: A working prototype front-end.
 
 
-###### T4: Front-end & Back-end Integration
-* Input: A working back-end and front-end.
+###### T8: Front-end & Back-end Integration
+* Input: A working back-end and front-end, programmer time, architecture document.
 
 * Output: A working website that is able to be hosted to the internet.
 
-###### T5: Test writing
+###### T9: Test writing
 * Input: An intermediate working system.
 
 * Output: A test suite that should run on the final project.
 
-###### T6: Completed Graphs
+###### T10: Completed Graphs
 * Input: A completed database and functional front-end.
 
 * Output: Two graphs that fulfil our user-requirements and are ready to be added to the front-end.
 
 
-###### T7: UI Design
-* Input:
+###### T11: UI Design
+* Input: Lots of creativity.
 
 * Output: A beautiful UI to showcase what our future website will look like.
 
 
-###### T8: Final Front-end UI Implementation
+###### T12: Final Front-end UI Implementation
 * Input: A beautiful UI design, a prototype front-end.
 
 * Ouput: A beautiful front-end that looks as close as possible to our UI design.
 
-###### T9: Hosting Website
+###### T13: Hosting Website
 * Input: A working website that can be hosted.
 
 * Output: A hosted website that can be accessed through the internet.
 
-###### T10: Finishing Touches
+###### T14: Finishing Touches
 * Input: The feature-complete project.
 
 * Output: The final version of the project.
 
 
-###### T11: Project Presentation
+###### T15: Project Presentation
 * Input: The final version of the project.
 
 * Output: A presentation that can be delivered to the class.
