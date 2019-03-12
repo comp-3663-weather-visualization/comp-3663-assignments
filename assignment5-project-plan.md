@@ -41,6 +41,64 @@ The server we are hosting our website on is a DigitialOcean virtual server (call
 ## 5. Work breakdown
 #### Break into activities with inputs and outputs
 
+###### API & Database Integration
+* Input:
+
+* Output: A working database that correctly pulls and stores data from the OpenWeatherMap API.
+
+
+###### Back-end Prototype
+* Input:
+
+* Output: A working prototype back-end.
+
+
+###### Front-end Prototype
+* Input:
+
+* Output: A working prototype front-end.
+
+
+###### Front-end & Back-end Integration
+* Input: A working back-end and front-end.
+
+* Output: A working website that is able to be hosted to the internet.
+
+
+###### Completed Graphs
+* Input: A completed database and functional front-end.
+
+* Output: Two graphs that fulfil our user-requirements and are ready to be added to the front-end.
+
+
+###### UI Design
+* Input:
+
+* Output: A beautiful UI to showcase what our future website will look like.
+
+
+###### Final Front-end UI Implementation
+* Input: A beautiful UI design, a prototype front-end.
+
+* Ouput: A beautiful front-end that looks as close as possible to our UI design.
+
+###### Hosting Website
+* Input: A working website that can be hosted.
+
+* Output: A hosted website that can be accessed through the internet.
+
+###### Finishing Touches
+* Input: The feature-complete project.
+
+* Output: The final version of the project.
+
+
+###### Project Presentation
+* Input: The final version of the project.
+
+* Output: A presentation that can be delivered to the class.
+
+
 ## 6. Project schedule
 #### Show dependencies, estimated time and people allocation
 
