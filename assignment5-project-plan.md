@@ -10,12 +10,13 @@ The main constraint is time, especially in combination with man-power. With thre
 
 ## 2. Project organization
 #### People and their roles
+Because of our small team, team members must take on multiple roles.
 
-Joshua Alexander:
+**Joshua Alexander:** Librarian, Documentation Editor, Support Programmer.
 
-John Connolly:
+**John Connolly:** Chief Programmer, tester.
 
-Chris Kasza:
+**Chris Kasza:** Backup programmer, language/system expert, project administrator.
 
 ## 3. Risk analysis
 #### Possible risks, likelihood of those risks and risk reduction strategies
