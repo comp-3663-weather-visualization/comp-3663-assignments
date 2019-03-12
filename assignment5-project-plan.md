@@ -140,6 +140,7 @@ Now that we have officially divvied up tasks in this document, we can compare ou
 
 ## 8. Diagrams:
 #### Tasks, durations, and dependencies
+![tasks](/Pics/tasks_graph.png)
 
 #### Activity Chart
 ![activity](/Pics/activity_chart.png)
