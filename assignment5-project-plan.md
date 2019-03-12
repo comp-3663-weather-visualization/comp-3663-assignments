@@ -142,5 +142,5 @@ Now that we have officially divvied up tasks in this document, we can compare ou
 #### Tasks, durations, and dependencies
 
 #### Activity Chart
-
+![activity](/Pics/activity_chart.png)
 #### Staff Allocation Chart
