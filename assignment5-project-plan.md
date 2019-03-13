@@ -127,6 +127,13 @@ The server we are hosting our website on is a DigitialOcean virtual server (call
 ## 6. Project schedule
 #### Show dependencies, estimated time and people allocation
 
+#### Tasks, durations, and dependencies
+![tasks](/Pics/tasks_graph.png)
+
+#### Activity Chart
+![activity](/Pics/activity_chart.png)
+#### Staff Allocation Chart
+
 ## 7. Monitoring and reporting mechanisms
 #### Management reports and project monitoring
 
@@ -138,10 +145,3 @@ At this meeting, we convene on the previous week's jobs and how they went and wh
 
 Now that we have officially divvied up tasks in this document, we can compare our progress to the project schedule above (and graphs below) to more precisely see how on-track we are in the project.
 
-## 8. Diagrams:
-#### Tasks, durations, and dependencies
-![tasks](/Pics/tasks_graph.png)
-
-#### Activity Chart
-![activity](/Pics/activity_chart.png)
-#### Staff Allocation Chart
