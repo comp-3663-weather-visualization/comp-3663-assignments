@@ -3,13 +3,13 @@
 #### Joshua Alexander, John Connolly, Chris Kasza
 
 ## 1. Introduction
-#### Briefly describe project objectives and constraints
+
 The objectives of our team is to make a user-friendly graph-centric website dedicated to representing the weather forecast in comparison with historical weather patterns. The final product must be easy to use, and most importantly, beautiful.
 
 The main constraint is time, especially in combination with man-power. With three team-members in our project, and 3 months to make a fully-fledged project; the team's time is very constrained.
 
 ## 2. Project organization
-#### People and their roles
+
 Because of our small team, team members must take on multiple roles.
 
 **Joshua Alexander:** Librarian, Documentation Editor, Support Programmer.
@@ -19,7 +19,6 @@ Because of our small team, team members must take on multiple roles.
 **Chris Kasza:** Backup programmer, language/system expert, project administrator.
 
 ## 3. Risk analysis
-#### Possible risks, likelihood of those risks and risk reduction strategies
 
 * Our website is dependent on OpenWeatherMap API to get our forecasts—if they were to disappear, even temporarily, our website be rendered inoperable. We need to rely on this API, and I see no way for this risk to be mitigated. If OpenWeatherMap were to go away, we would have to refactor our project to use a new API.
 
@@ -28,7 +27,6 @@ Because of our small team, team members must take on multiple roles.
 * It is not free to host our website on a Droplet. If we wanted this project to live past April 2nd (the due-date), we would have to acquire funding from somewhere to keep our website up. There is always a risk in projects when it comes to funding, and ours is no exception. However, it is not likely that we will be required to host the website for more than a couple of weeks.
 
 ## 4. Hardware and software resource requirements
-#### What will be used in the project
 
 The front-end of our website uses a framework called Vue.js. Vue allows us to easily build the beautiful and reactive user interface needed in our project.
 
@@ -40,7 +38,6 @@ The server we are hosting our website on is a DigitialOcean virtual server (call
 
 
 ## 5. Work breakdown
-#### Break into activities with inputs and outputs
 
 ###### T1: Project Brainstorming
 * Input: Creativity.
@@ -125,17 +122,17 @@ The server we are hosting our website on is a DigitialOcean virtual server (call
 
 
 ## 6. Project schedule
-#### Show dependencies, estimated time and people allocation
 
 #### Tasks, durations, and dependencies
 ![tasks](/Pics/tasks_graph.png)
 
 #### Activity Chart
 ![activity](/Pics/activity_chart.png)
+
 #### Staff Allocation Chart
+![staff](/Pics/staff_alloc.png)
 
 ## 7. Monitoring and reporting mechanisms
-#### Management reports and project monitoring
 
 The project is hosted on Github.com which has a full commit history so everyone can see what work was done. This provides a transparent window into how much work is done and how often.
 
